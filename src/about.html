@@ -2,6 +2,164 @@
 <html>
   <head>
     <title>About Restaurnat</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        list-style: none;
+      }
+      img {
+        display: block;
+      }
+      body {
+        font-size: 14px;
+        font-family: "맑은 고딕";
+        color: black;
+      }
+      #top {
+        width: 1000px;
+        height: 500px;
+        margin: 30px auto 0;
+      }
+      .top_left {
+        width: 750px;
+        height: 500px;
+        float: left;
+        background-image: url(/img/chef_about.png);
+        overflow: hidden;
+      }
+      .top_box {
+        width: 210px;
+        height: 210px;
+        margin-top: 250px;
+        padding: 20px;
+        background-color: #329632cc;
+      }
+      .top_right {
+        width: 250px;
+        height: 500px;
+        float: left;
+        overflow: hidden;
+      }
+      #box_all {
+        width: 1000px;
+        height: 500px;
+        margin: 0 auto;
+      }
+      .box_left {
+        width: 750px;
+        height: 500px;
+        float: left;
+      }
+      .box {
+        width: 210px;
+        height: 210px;
+        float: left;
+        padding: 20px;
+      }
+      .box:nth-child(2n) {
+        background-color: #e0831f;
+      }
+      .box:nth-child(2n + 1) {
+        background-color: #775b44;
+      }
+      .box_right {
+        width: 210px;
+        height: 460px;
+        padding: 20px;
+        float: left;
+        background-color: #d3b27a;
+      }
+      #footer {
+        width: 1000px;
+        height: 40px;
+        margin: 0 auto;
+        background-color: #f9b1bd;
+      }
+      .footer_left {
+        width: 750px;
+        height: 40px;
+        background-color: #837f7f;
+      }
+      .footer_left > ul {
+        margin-left: 20px;
+        overflow: hidden;
+      }
+      .footer_left > ul > li {
+        float: left;
+        margin: 0 10px;
+        font-size: 11px;
+        line-height: 40px;
+      }
+      .footer_left > ul > li:nth-child(2n) {
+        color: orange;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <div id="top">
+      <div class="top_left">
+        <div class="top_box">
+          <h2>
+            GLOBAL
+            <br />
+            BUSINESS
+          </h2>
+          <p>
+            <br />
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </div>
+      <div class="top_right">
+        <img src="/img/right1.png" />
+        <img src="/img/right2.png" />
+      </div>
+    </div>
+    <div id="box_all">
+      <div class="box_left">
+        <div class="box">
+          <h2>Title</h2>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div class="box">
+          <h2>Title</h2>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+      </div>
+      <div class="box_right">7</div>
+    </div>
+    <div id="footer">
+      <div class="footer_left">
+        <ul>
+          <li>법적고지</li>
+          <li>|</li>
+          <li>이메일무단수집거부</li>
+          <li>|</li>
+          <li>이용약관</li>
+          <li>|</li>
+          <li>개인정보취급방침</li>
+          <li>|</li>
+          <li>고객센터</li>
+          <li>|</li>
+          <li>입찰공고</li>
+        </ul>
+      </div>
+    </div>
+  </body>
 </html>
